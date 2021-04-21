@@ -1,3 +1,8 @@
+i,
+.learn_more {
+  color: #7F14D4;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -114,7 +119,13 @@
 }
 
 .container-left {
-  width: 80%;
+  float: left;
+  padding: 20px 0px;
+}
+
+.container-right {
+  float: right;
+  padding: 20px 0px;
 }
 
 .second-img {
@@ -141,14 +152,15 @@
   background-color: white;
   margin: 20px;
   padding: 20px;
-  border: 1px solid #2c4792;
+  border: 1px solid #0414B3;
   border-radius: 10px;
 }
 .we_are img {
   padding: 10px;
 }
 .we_are span {
-  color: #2c4792;
+  color: #0414B3;
+  font-size: 16px;
 }
 
 .footer {
@@ -171,6 +183,7 @@
   list-style: none;
 }
 .footer img {
+  width: 25%;
   font-size: 10px;
   padding-right: 5px;
 }
