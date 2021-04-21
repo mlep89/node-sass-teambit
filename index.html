@@ -5,147 +5,178 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="dist/app.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
     <title>Teambit</title>
 </head>
 <body>
-    <div class="header">
-        <div>
-            <img src="img/logo-small.svg" alt="">
-            <p>Teambit</p>
-        </div>
-        <div>
-            <ul>
-                <li>Solutions</li>
-                <li>Pricing</li>
-                <li>Blog</li>
-                <li>Sign in</li>
-            </ul>
-            <button><img src="img/google-logo.svg" alt=""> Sign up</button>
-        </div>
+    <div class="header container d-flex align-items-center justify-content-between">
+            <div class="">
+                <img src="img/logo.svg" alt="">
+            </div>
+            <div>
+                <ul>
+                    <li>Solutions <i class="fas fa-chevron-down"></i></li>
+                    <li>Pricing</li>
+                    <li>Blog</li>
+                    <li>Sign in</li>
+                    <li><button><img src="img/google-logo.svg" alt=""> Sign up</button></li>
+                </ul>
+            </div>
     </div>
-    <div class="jumbotron">
-        <div>
+    <div class="jumbo my-container">
+        <div class="jumbo_left">
             <h1>Understand, recognize and develop your people</h1>
             <p>Teambit helps team create a high performing culture with regular feedback.</p>
             <button><img src="img/google-logo.svg" alt="">Sign up with Google</button> 
             <span>or</span>
             <button><img src="img/slack-logo.svg" alt=""> Sign up with Slack</button>
-            <p>or use email adress</p>
+            <p>or use email adress <i class="fas fa-arrow-right"></i></p>
         </div>
-        <div>
+        <div class="jumbo_right">
             <img src="img/illustration-main.jpg" alt="">
         </div>
     </div>
     <div class="first-section">
-        <div class="my_container">
-            <h2>Traditional people processes lead to deasengagement and turnover.</h2>
-            <div class="flex_container">
-                <div>
-                    <img src="img/hardcore.png" alt="">
-                    <p>They are hardcore, format and disconetted</p>
+        <div class="container special">
+            <div class="row ">
+                <div class="col-sm-12">
+                    <h3>Traditional people processes lead to deasengagement and turnover.</h3>
                 </div>
-                <div>
-                    <img src="img/nofeedback.png" alt="">
-                    <p>They don't encourage regular feedback</p>
-                </div>
-                <div>
-                    <img src="img/notsafe.png" alt="">
-                    <p>They don't make it safe to speak up </p>
-                </div>
-            </div>
-            <div>
-                <img src="img/before.png" alt="">
+                    <div class="col-sm"> 
+                        <img src="img/hardcore.png" class="first-img" alt="">
+                        <p>They are hardcore, format and disconetted</p>
+                    </div>
+                    <div class="col-sm">
+                        <img src="img/nofeedback.png" class="first-img" alt="">
+                        <p>They don't encourage regular feedback</p>
+                    </div>
+                    <div class="col-sm">
+                        <img src="img/notsafe.png" class="first-img" alt="">
+                        <p>They don't make it safe to speak up </p>
+                    </div>
+                    <div class="col-sm-12">
+                        <img src="img/before.png" class="first-img" alt="">
+                    </div>
             </div>
         </div>
-        <div class="my_container">
-            <h2>It doesn't have to be like that. Teambit is a modern solution thats teammates love.</h2>
-            <div class="flex_container">
-                <div>
-                    <img src="img/lightweight.png" alt="">
+        <div class="container special">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3>It doesn't have to be like that. Teambit is a modern solution thats teammates love.</h3>
+                </div>
+                <div class="col-sm">
+                    <img src="img/lightweight.png" class="first-img" alt="">
                     <p>It's lightweight fun and interconnected</p>
                 </div>
-                <div>
-                    <img src="img/feedbacksuggestions.png" alt="">
+                <div class="col-sm">
+                    <img src="img/feedbacksuggestions.png" class="first-img" alt="">
                     <p>It encourages regular feedback with ontextuals requests</p>
                 </div>
-                <div>
-                    <img src="img/safe.png" alt="">
+                <div class="col-sm">
+                    <img src="img/safe.png" class="first-img" alt="">
                     <p>It creates a safe environment for dialog </p>
                 </div>
-            </div>
-            <div>
-                <img src="img/after.png" alt="">
-                <h3>Here is how it works</h3>
+                <div class="col-sm-12">
+                    <img src="img/after.png" class="first-img" alt="">
+                    <h3>Here is how it works</h3>
+                </div>
             </div>
         </div>
     </div>
 
     <div class="second-section">
-        <div class="container-left">
-            <div>
-                <img src="img/employee-feedback.jpg" alt="">
-            </div>
-            <div>
-                <h3>Feedback to help teammates improve</h3>
-                <p>Empower your teammates to know in real time what they are doing well and what they need to improve.</p>
-                <a href="#">Learn more</a>
-                <img src="img/communication.jpg" alt="">
-            </div>
-        </div>
-        <div class="container-right">
-            <div>
-                <h3>Surveys to help the team be better</h3>
-                <p>Get real-time insights into your team with reasearch-backed, lightweight and regular surveys.</p>
-                <a href="#">Learn more</a>
-                <img src="img/insights.jpg" alt="">
-            </div>
-            <div>
-                <img src="img/employee-survey.jpg" alt="">
+        <div class="container-left container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="img/employee-feedback.jpg" class="second-img" alt="">
+                </div>
+                <div class="col-lg-6">
+                    <h3>Feedback to help teammates improve</h3>
+                    <p>Empower your teammates to know in real time what they are doing well and what they need to improve.</p>
+                    <a href="#">Learn more <i class="fas fa-arrow-right"></i></a><br>
+                    <img src="img/communication.jpg" class="second-img-little" alt="">
+                </div>
             </div>
         </div>
-        <div class="container-left">
-            <div>
-                <img src="img/performance-review.jpg" alt="">
-            </div>
-            <div>
-                <h3>Reviews to help teammates get a fair evaluation</h3>
-                <p>Make better compensation and promotion decisions with objective and uick performance reviews.</p>
-                <a href="#">Learn more</a>
-                <img src="img/review.jpg" alt="">
+        <div class="container-right container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3>Surveys to help the team be better</h3>
+                    <p>Get real-time insights into your team with reasearch-backed, lightweight and regular surveys.</p>
+                    <a href="#">Learn more <i class="fas fa-arrow-right"></i></a><br>
+                    <img src="img/insights.jpg" class="second-img-little" alt="">
+                </div>
+                <div class="col-lg-6">
+                    <img src="img/employee-survey.jpg" class="second-img" alt="">
+                </div>
             </div>
         </div>
-        <div class="container-right">
-            <div>
-                <h3>Praise to help teammates feel valued</h3>
-                <p>Make it a habit to recognize and praise people who do great work.</p>
-                <a href="#">Learn more</a>
-                <img src="img/recognition.jpg" alt="">
+        <div class="container-left container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="img/performance-review.jpg" class="second-img" alt="">
+                </div>
+                <div class="col-lg-6">
+                    <h3>Reviews to help teammates get a fair evaluation</h3>
+                    <p>Make better compensation and promotion decisions with objective and uick performance reviews.</p>
+                    <a href="#">Learn more <i class="fas fa-arrow-right"></i></a><br>
+                    <img src="img/review.jpg" class="second-img-little" alt="">
+                </div>
             </div>
-            <div>
-                <img src="img/employee-survey.jpg" alt="">
+        </div>
+        <div class="container-right container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3>Praise to help teammates feel valued</h3>
+                    <p>Make it a habit to recognize and praise people who do great work.</p>
+                    <a href="#">Learn more <i class="fas fa-arrow-right"></i></a><br>
+                    <img src="img/recognition.jpg" class="second-img-little" alt="">
+                </div>
+                <div class="col-lg-6">
+                    <img src="img/employee-survey.jpg" class="second-img" alt="">
+                </div>
             </div>
         </div>
 
     </div>
     <div class="third-section">
-        <div>
-            <h2>See Teambit for yourself.</h2>
-            <h2>Get started in seconds</h2>
-            <img src="" alt="">
-            <div>
-                <button><img src="img/google-logo.svg" alt="">Sign up with Google</button> 
-                <span>or</span>
-                <button><img src="img/slack-logo.svg" alt=""> Sign up with Slack</button>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>See Teambit for yourself.</h2>
+                    <h2>Get started in seconds <img src="img/happy.svg" alt=""></h2>
+                    <div class="we_are">
+                        <p>We are experiencing what Gallup calls 'an employee engagement crisis'. Just one-third of people at work are engaged.</p>
+                        <p>To improve performance and engagement companies rely on the same principles as industrial-age factories. But all those annual performance reviews and hundred-question surveys don't work anymore. People want regular feedback. Leaders who don't embrace this change end up with misaligned, disengaged and dwindling team.</p>
+                        <p>We designed Teambit to change that. It empowers teams to make feedback a daily habit. Everybody knows what they are doing well and what they need to improve, leading to better performing, engaged and happier teams.</p>
+                        <p>We are on a mission to make worklife exciting. Come join us</p>
+                        <div class="d-flex align-items-center"> <!--usa flex per contenere i 2 div sulla stessa linea-->
+                            <div class="photo_container">
+                                <img src="img/alex.png" alt="">
+                                <img src="img/bohdan.png" alt="">
+                            </div>
+                            <div>
+                                <p><span>Alex and Bohdan </span><br>
+                                Co-Founders at Teambit</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <button><img src="img/google-logo.svg" alt="">Sign up with Google</button> 
+                        <span>or</span>
+                        <button><img src="img/slack-logo.svg" alt=""> Sign up with Slack</button>
+                        <p>or use email adress <i class="fas fa-arrow-right"></i></p>
+                    </div>
+                </div>
             </div>
-            <p>or use email adress</p>
         </div>
     </div>
-    <div class="footer">
-        <div>
-            <img src="img/logo.svg" alt="">
+    <div class="footer container d-flex justify-content-between">
+        <div class="d-flex align-items-start">
+            <img src="img/logo-small.svg" alt="">
             <p>Teambit helps teams create high performing cultures by making feedback a daily habit.</p>
         </div>
-        <div>
             <div>
                 <h3>Product</h3>
                 <ul>
@@ -191,7 +222,7 @@
                     <li>View all</li>
                 </ul>
             </div>
-        </div>
+        
 
     </div>
     
